@@ -1,0 +1,36 @@
+# create-svg-size [![Build Status](https://travis-ci.org/bendrucker/create-svg-size.svg?branch=master)](https://travis-ci.org/bendrucker/create-svg-size)
+
+> Create an svg object with a given x/y width/height
+
+
+## Install
+
+```
+$ npm install --save create-svg-size
+```
+
+
+## Usage
+
+```js
+var size = require('create-svg-size')
+
+size({x: 10, y: 20})
+//=> {width: '10px', height: '20px', viewBox: '0 0 10 20'}
+```
+
+## API
+
+#### `size(dimensions)` -> `object`
+
+##### dimensions
+
+*Required*  
+Type: `object`
+
+An object with x/y dimensions for the svg.
+
+
+## License
+
+MIT © [Ben Drucker](http://bendrucker.me)
