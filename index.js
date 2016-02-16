@@ -9,8 +9,8 @@ module.exports = function svgSize (size) {
   var y = size.y
 
   return {
-    width: x + 'px',
-    height: y + 'px',
+    width: size.responsive ? '100%' : x + 'px',
+    height: size.responsive ? '100%' : y + 'px',
     viewBox: [0, 0, x, y].join(' ')
   }
 }

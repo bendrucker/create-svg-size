@@ -28,7 +28,7 @@ size({x: 10, y: 20})
 *Required*  
 Type: `object`
 
-An object with x/y dimensions for the svg.
+An object with x/y dimensions for the svg. The dimensions can also contain an optional `responsive` boolean that will set the width/height to 100% but set the `viewBox` appropriately.
 
 
 ## License
