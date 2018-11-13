@@ -1,4 +1,4 @@
-# create-svg-size [![Build Status](https://travis-ci.org/bendrucker/create-svg-size.svg?branch=master)](https://travis-ci.org/bendrucker/create-svg-size)
+# create-svg-size [![Build Status](https://travis-ci.org/bendrucker/create-svg-size.svg?branch=master)](https://travis-ci.org/bendrucker/create-svg-size) [![Greenkeeper badge](https://badges.greenkeeper.io/bendrucker/create-svg-size.svg)](https://greenkeeper.io/)
 
 > Create an svg object with a given x/y width/height
 
